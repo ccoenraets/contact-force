@@ -1,0 +1,7 @@
+{
+    "name": "Contact Force",
+    "description": "Contact Force",
+    "repository": "https://github.com/ccoenraets/contact-force",
+    "logo": "https://node-js-sample.herokuapp.com/node.svg",
+    "keywords": ["cors", "nodejs", "proxy", "salesforce", "rest"]
+}
