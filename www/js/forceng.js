@@ -416,6 +416,8 @@ angular.module('forceng', [])
 
         // The public API
         return {
+            baseURL: baseURL,
+            context: context,
             init: init,
             login: login,
             isLoggedIn: isLoggedIn,

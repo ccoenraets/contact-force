@@ -15,15 +15,15 @@ angular.module('directory', ['ionic', 'forceng', 'directory.controllers'])
 
             force.init({
                 // Required: clientId of Salesforce Connected App
-                appId: '3MVG9xOCXq4ID1uHBRAO6uf8oDR5WpwXUPOVuilkbSimIRGkl60BhC6hdcNclUdFnJgmdIftypoyI.pe._Sr4',
+                appId: '3MVG9xOCXq4ID1uHBRAO6uf8oDSsdNSAGP8dOpxiL1Mb7fkEsLMhgw2Q.pDfBnBatDYNc9qWvvAHAUCrlYSbb',
                 // optional: defaults to 'v30.0'
 //                apiVersion: 'v30.0',
                 // optional: defaults to window.sessionStorage
                 //tokenStore: window.localStorage,
                 // optional: defaults to oauthcallback.html in same directory as index.html
-                oauthRedirectURL: 'http://localhost:3000/oauthcallback.html',
+                // oauthRedirectURL: 'http://localhost:3000/oauthcallback.html',
                 // only required when hosting app on your own server to work around cross-domain issues (Not required when running locally on mobile device)
-                proxyURL: 'http://localhost:3000'
+                proxyURL: force.baseURL
             });
 
             if (force.isLoggedIn()) {
